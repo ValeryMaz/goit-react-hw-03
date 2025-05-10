@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.addBtn {
+  background-color: bisque;
+  padding: 8px;
+  width: 150px;
+  border: 1px solid #434343;
+  margin: 0 auto;
+}
+
+.formDiv {
+  display: flex;
+  margin: 0 auto;
+}
