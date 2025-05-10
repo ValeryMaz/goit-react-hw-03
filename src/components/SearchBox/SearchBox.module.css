@@ -1,6 +1,6 @@
 .divForSearch {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 15px;
 }

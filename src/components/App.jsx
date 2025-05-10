@@ -1,9 +1,9 @@
 import contacts from "../contacts.json";
 import { useState, useEffect } from "react";
-import ContactList from "./ContactList/ContactList";
 import ContactForm from "./ContactForm/ContactForm";
 import SearchBox from "./SearchBox/SearchBox";
 import css from "./App.module.css";
+import ContactList from "./ContactList/ContactList.jsx";
 function App() {
   const [contactsList, setContact] = useState(() => {
     const savedContacts = window.localStorage.getItem("saved-contacts");
